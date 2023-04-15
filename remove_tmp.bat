@@ -10,7 +10,7 @@ echo.
 
 del /q "C:\Users\%USERNAME%\AppData\Local\Temp\*" > NUL 2> NUL
 
-start powershell for /d %%y in ("C:\Users\ABDERRAHIM\AppData\Local\Temp\*") do @rd /s /q "%%y"
+start powershell for /d %%y in ("C:\Users\%USERNAME%\AppData\Local\Temp\*") do @rd /s /q "%%y"
 del /q "C:\Windows\Prefetch\*" > NUL 2> NUL
 
 for /d %%i in (C:\Windows\Prefetch\*) do @rd /s /q "%%i" > NUL 2> NUL
