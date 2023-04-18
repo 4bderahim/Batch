@@ -16,7 +16,7 @@ del /q "C:\Windows\Prefetch\*" > NUL 2> NUL
 for /d %%i in (C:\Windows\Prefetch\*) do @rd /s /q "%%i" > NUL 2> NUL
 del /q "C:\Windows\Temp\*" > NUL 2> NUL
 for /d %%x in (C:\Windows\Temp\*) do @rd /s /q "%%x" > NUL 2> NUL
-echo [+] All temporary files deleted.
+echo [+] All temporary files are deleted.
 echo.
 pause
 
